@@ -44,6 +44,6 @@ possible to configure more then one `migrations` directory.
 - Shared connection pool is used for all umbrella applications.
  
 ## Disadvantages
-- All umbrella applications has to use the same database.
+- All umbrella applications have to use the same database.
 - All umbrella applications migrations are stored in the same directory which migth cause a mess.
  
