@@ -10,6 +10,12 @@ migrations are connected to to the `Repo` configuration. It is possible to confi
 a custom migrations directory (instead of `priv/repo/migrations`) but it is not 
 possible to configure more then one `migrations` directory.
 
+## How to run
+- mix deps.get
+- MIX_ENV=test mix ecto.create
+- MIX_ENV=test mix ecto.migrate
+- mix test
+
 ## Umbrella applications
 
 ### `apps/db`
